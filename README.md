@@ -30,7 +30,7 @@ pip install requests pillow customtkinter screeninfo
 4. Run the script:
 
 ```bash
-python wallpaper_changer.py
+python main.py
 ```
 
 ### **Step 3: Set the Script to Run Automatically (Optional)**
@@ -50,7 +50,7 @@ If you want the app to start automatically when your PC boots up, follow these s
 2. Navigate to: `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`
 3. Add a new string with the path to your executable:
    ```plaintext
-   "C:\path\to\wallpaper_changer.exe"
+   "C:\path\to\main.exe"
    ```
 
 ## **Usage Instructions**
